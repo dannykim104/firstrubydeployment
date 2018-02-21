@@ -1,0 +1,15 @@
+<form action="/dojos" method="post">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <p> Branch: </p> 
+        <input type='text' name='dojo[branch]'>
+    <p> Street: </p> 
+        <input type='text' name='dojo[street]'>
+    <p> City: </p> 
+        <input type='text' name='dojo[city]'>
+    <p> State: </p> 
+        <input type='text' name='dojo[state]'>
+    <br>
+    <input type='submit' value='Create'>
+
+
+</form>
